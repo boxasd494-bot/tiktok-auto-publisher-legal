@@ -1,2 +1,112 @@
-<h1>Hello GitHub Pages</h1>
-<p>This is a test page.</p>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Auto Publisher</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #000;
+    }
+    .tagline {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 40px;
+    }
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 40px 0;
+    }
+    .link-card {
+      padding: 20px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .link-card:hover {
+      border-color: #667eea;
+      background: #f5f7ff;
+      transform: translateY(-2px);
+    }
+    .link-card h3 {
+      color: #667eea;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .link-card p {
+      font-size: 13px;
+      color: #999;
+    }
+    .contact {
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 13px;
+      color: #999;
+    }
+    a {
+      color: #667eea;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 TikTok Auto Publisher</h1>
+    <p class="tagline">AI powered short-form video generation for e-commerce</p>
+    
+    <div class="links">
+      <a href="./tos.html" class="link-card">
+        <h3>📋 Terms of Service</h3>
+        <p>Conditions of use</p>
+      </a>
+      <a href="./privacy-policy.html" class="link-card">
+        <h3>🔒 Privacy Policy</h3>
+        <p>Data protection</p>
+      </a>
+    </div>
+
+    <div class="contact">
+      <p>Questions? Contact us:</p>
+      <p><a href="mailto:support@tiktok-auto-publisher.example.com">support@tiktok-auto-publisher.example.com</a></p>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2026 TikTok Auto Publisher. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
